@@ -105,12 +105,8 @@ ul {
   height: 5.6rem;
 }
 .how .how-left {
-  max-height: 58rem;
+  max-height: 70rem;
   max-width: 56.3rem;
-}
-
-main {
-  /* padding: 0 8rem 8rem 8rem; */
 }
 
 .user {
@@ -208,7 +204,7 @@ main {
   text-align: start;
 }
 .user .works .frame .frame-one:hover {
-  box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
   padding: 2.4rem;
 }
 
@@ -457,13 +453,17 @@ main {
 .facebook {
   padding: 9.6rem 0 9.6rem 0;
 }
-.facebook .john {
+.facebook .testimonal {
   max-width: 144rem;
+  display: flex;
   align-items: center;
   margin: 0 auto;
-  display: flex;
 }
-.facebook .john .lorem {
+.facebook .testimonal .author-img {
+  position: relative;
+}
+.facebook .testimonal .about-author {
+  position: inherit;
   display: flex;
   width: 971.75px;
   padding: 48px 80px 48px 160px;
@@ -472,10 +472,9 @@ main {
   gap: 48px;
   border-radius: 12px;
   background: #F5F9FF;
-  z-index: -1;
   margin-left: -80px;
 }
-.facebook .john .lorem h2 {
+.facebook .testimonal .about-author h2 {
   font-size: 18px;
   font-family: Rubik;
   font-style: normal;
@@ -483,13 +482,13 @@ main {
   line-height: 120%;
   color: #505056;
 }
-.facebook .john .ux {
+.facebook .testimonal .about-author .ux {
   width: 73.1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.facebook .john .ux .doe h2 {
+.facebook .testimonal .about-author .ux .doe h2 {
   font-size: 20px;
   font-family: Rubik;
   font-style: normal;
@@ -497,16 +496,23 @@ main {
   line-height: 120%;
   color: #2B2828;
 }
-.facebook .john .ux .doe p img {
+.facebook .testimonal .about-author .ux .doe p img {
   width: 156.835px;
   height: 30.355px;
+  margin-top: 1rem;
 }
-.facebook .john .ux .left {
+.facebook .swiper-icon {
   display: flex;
   column-gap: 1rem;
   font-size: 2.5rem;
+  cursor: pointer;
 }
-.facebook .john .ux .left p:hover {
+.facebook .swiper-icon i {
+  font-size: 3rem;
+  color: #66A3FF;
+}
+.facebook .swiper-icon i:hover {
+  font-size: 50px;
   color: #0066FF;
 }
 
@@ -563,6 +569,7 @@ main {
   gap: 10px;
   border-radius: 10px;
   background: #2B2828;
+  border: none;
 }
 .app-for .our .input .Download-App a {
   font-size: 16px;
@@ -695,7 +702,7 @@ footer .footer-a .install h2 {
 footer .footer-a .install ul {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  row-gap: 2.4rem;
+  row-gap: 1rem;
 }
 footer .footer-hr {
   margin-top: 4rem;
@@ -716,8 +723,18 @@ footer .made .with p {
   font-weight: 400;
   line-height: 19.8px;
 }
-footer .made .icon h2 {
-  font-size: 2rem;
+footer .made .icon ul {
+  display: flex;
+  column-gap: 1.5rem;
+}
+footer .made .icon ul li {
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #1E293B;
+}
+footer .made .icon ul a i {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=stayil.css.map */
