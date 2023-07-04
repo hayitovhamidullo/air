@@ -1,0 +1,723 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+header {
+  background-color: #F8F9FF;
+}
+header .container {
+  max-width: 144rem;
+  padding: 1rem 8rem 12.8rem 8rem;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navbar-right ul {
+  column-gap: 4.8rem;
+}
+.navbar .navbar-right ul li a {
+  font-size: 18px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.36px;
+  color: #434959;
+}
+.navbar .navbar-left ul {
+  column-gap: 4.8rem;
+}
+.navbar a {
+  font-size: 18px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: -0.54px;
+  color: #434959;
+}
+.navbar .Get {
+  padding: 1.6rem 4rem;
+  border-radius: 1rem;
+  background-color: #0066FF;
+  border: none;
+}
+.navbar .Get a {
+  color: #FFFFFF;
+}
+
+.how {
+  margin-top: 6.4rem;
+  margin-top: 6.4rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 4.3rem;
+  align-items: center;
+}
+.how .how-right {
+  max-width: 64rem;
+}
+.how .how-right h1 {
+  font-size: 56px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+}
+.how .how-right h2 {
+  margin-top: 2.4rem;
+  font-size: 18px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+}
+.how .how-right ul {
+  margin-top: 4rem;
+  column-gap: 3.2rem;
+  display: flex;
+}
+.how .how-right ul li {
+  width: 19rem;
+  height: 5.6rem;
+}
+.how .how-left {
+  max-height: 58rem;
+  max-width: 56.3rem;
+}
+
+main {
+  /* padding: 0 8rem 8rem 8rem; */
+}
+
+.user {
+  max-width: 144rem;
+  padding: 0 8rem 8rem 8rem;
+  margin: 0 auto;
+}
+.user .dowlon {
+  margin-top: 11.2rem;
+  margin-bottom: 11.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.user .dowlon .user-name {
+  row-gap: 1rem;
+  text-align: center;
+}
+.user .dowlon .user-name h2 {
+  font-size: 48px;
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: #2B2828;
+}
+.user .dowlon .user-name p {
+  font-size: 24px;
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  color: #505056;
+}
+.user .works {
+  margin-bottom: 11.2rem;
+}
+.user .works h2 {
+  max-width: 81.5rem;
+  font-size: 48px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: #2B2828;
+  text-align: center;
+  margin: 0 auto;
+}
+.user .works h3 {
+  margin-top: 2.4rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+}
+.user .works .frame {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  margin-top: 12rem;
+}
+.user .works .frame .frame-one {
+  max-width: 35.7rem;
+}
+.user .works .frame .frame-one p {
+  height: 8rem;
+  width: 8rem;
+  background-color: #007AFF;
+  border-radius: 50%;
+  padding: 1.9rem;
+}
+.user .works .frame .frame-one p img {
+  height: 4.2rem;
+  width: 4.2rem;
+}
+.user .works .frame .frame-one h2 {
+  margin-top: 2.4rem;
+  text-align: start;
+  font-size: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 2.4rem;
+  color: #2B2828;
+}
+.user .works .frame .frame-one h3 {
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+  text-align: start;
+}
+.user .works .frame .frame-one:hover {
+  box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+  padding: 2.4rem;
+}
+
+.air {
+  background-color: #1F2029;
+}
+.air .web {
+  max-width: 144rem;
+  padding: 57px 117px 2px 43px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+.air .web .iphone {
+  max-width: 57.9rem;
+  max-height: 54.3rem;
+}
+.air .web .your {
+  max-width: 54.6rem;
+}
+.air .web .your h2 {
+  font-size: 32px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 1.8rem;
+}
+.air .web .your h3 {
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.air .web .your .shiet {
+  margin-top: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.air .web .your .shiet .share p {
+  max-width: 4.5rem;
+  max-height: 4.7rem;
+  border-radius: 4px;
+  border: 1px solid #393939;
+  padding: 1.2rem;
+}
+.air .web .your .shiet .share p img {
+  max-width: 2rem;
+  max-height: 2.4rem;
+}
+.air .web .your .shiet .share h2 {
+  margin-top: 1.2rem;
+  font-size: 18px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.air .web .your .shiet .share h3 {
+  margin-top: 1.2rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.keeping {
+  max-width: 144rem;
+  padding: 11.2rem 0 11.2rem 2rem;
+  margin: 0 auto;
+}
+.keeping .keeping-app {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 4rem;
+}
+.keeping .keeping-app .ellipse {
+  max-height: 59.9rem;
+}
+.keeping .keeping-app .track h2 {
+  font-size: 48px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: #2B2828;
+}
+.keeping .keeping-app .track p {
+  margin-top: 2.4rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+}
+.keeping .keeping-app .track .choose {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 2.4rem;
+  row-gap: 3rem;
+}
+.keeping .keeping-app .track .choose .mucker {
+  max-width: 36rem;
+}
+.keeping .keeping-app .track .choose .mucker p i {
+  color: #007AFF;
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+}
+.keeping .keeping-app .track .choose .mucker h2 {
+  font-size: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.keeping .keeping-app .track .choose .mucker h3 {
+  font-size: 18px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+}
+
+.Simple {
+  padding: 11.2rem 0 11.2rem 0;
+  background-color: #F8F9FF;
+}
+.Simple .bot {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.Simple .bot .plans {
+  margin-bottom: 10rem;
+}
+.Simple .bot .plans h2 {
+  font-size: 48px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: #2B2828;
+  max-width: 67.6rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.Simple .bot .plans h3 {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 67.6rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 2.4rem;
+  color: #505056;
+}
+.Simple .bot .month {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3.2rem;
+  column-gap: 3.5rem;
+}
+.Simple .bot .month .boost {
+  max-width: 40.3rem;
+  max-height: 54.7rem;
+}
+.Simple .bot .month .boost h2 {
+  margin-top: 2.1rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.32px;
+  color: #71717A;
+}
+.Simple .bot .month .boost h2 span {
+  font-size: 48px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+  color: #0E1133;
+}
+.Simple .bot .month .boost h3 {
+  margin-top: 2.1rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+  margin-bottom: 2.9rem;
+}
+.Simple .bot .month .boost .hr {
+  border: 1px solid #9FCDFF;
+  margin-bottom: 3.2rem;
+}
+.Simple .bot .month .boost p {
+  margin-top: 1.7rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+}
+.Simple .bot .month .boost .days {
+  margin-top: 4rem;
+  width: 292px;
+  height: 55px;
+  border-radius: 4px;
+  border: 1px solid #007AFF;
+}
+.Simple .bot .month .boost .days a {
+  font-size: 18px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #007AFF;
+}
+.Simple .bot .month .boost:hover {
+  padding: 3.2rem;
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+}
+.Simple .bot .month .boost:hover .days {
+  background-color: #007AFF;
+  border: none;
+}
+.Simple .bot .month .boost:hover .days a {
+  color: #FFFFFF;
+}
+
+.facebook {
+  padding: 9.6rem 0 9.6rem 0;
+}
+.facebook .john {
+  max-width: 144rem;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+.facebook .john .lorem {
+  display: flex;
+  width: 971.75px;
+  padding: 48px 80px 48px 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  border-radius: 12px;
+  background: #F5F9FF;
+  z-index: -1;
+  margin-left: -80px;
+}
+.facebook .john .lorem h2 {
+  font-size: 18px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+}
+.facebook .john .ux {
+  width: 73.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.facebook .john .ux .doe h2 {
+  font-size: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  color: #2B2828;
+}
+.facebook .john .ux .doe p img {
+  width: 156.835px;
+  height: 30.355px;
+}
+.facebook .john .ux .left {
+  display: flex;
+  column-gap: 1rem;
+  font-size: 2.5rem;
+}
+.facebook .john .ux .left p:hover {
+  color: #0066FF;
+}
+
+.app-for {
+  padding: 96px 85.333px;
+  background: #007AFF;
+}
+.app-for .our {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.app-for .our h2 {
+  font-size: 48px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 3.2rem;
+}
+.app-for .our p {
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 58.6rem;
+  margin: 0 auto;
+}
+.app-for .our .input {
+  padding-top: 5.4rem;
+  margin: 0 auto;
+  max-width: 68.6rem;
+}
+.app-for .our .input .nam {
+  display: flex;
+  justify-content: space-between;
+}
+.app-for .our .input #email {
+  width: 46.4rem;
+  height: 56px;
+  padding: 16px;
+  border-radius: 4px;
+  background: #FFF;
+  border: none;
+}
+.app-for .our .input .Download-App {
+  height: 56px;
+  padding: 16px 28px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #2B2828;
+}
+.app-for .our .input .Download-App a {
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.32px;
+  color: #FFFFFF;
+}
+.app-for .our .input h3 {
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #FFFFFF;
+  text-align: start;
+  margin-top: 1rem;
+}
+
+.new {
+  padding: 80px;
+  background: #FFF;
+}
+.new .latest {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.new .latest h4 {
+  font-size: 48px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 6.4rem;
+}
+.new .latest .has {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2.4rem;
+}
+.new .latest .has .desegin {
+  max-width: 40.5rem;
+}
+.new .latest .has .desegin img {
+  border-radius: 1rem;
+}
+.new .latest .has .desegin:hover {
+  box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+}
+.new .latest .has .UIUX {
+  /* max-width: 40.5rem; */
+  padding: 32px;
+  border-radius: 1rem;
+}
+.new .latest .has .UIUX h2 {
+  max-width: 34.1rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+}
+.new .latest .has .UIUX h3 {
+  max-width: 34.1rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+  font-size: 24px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: #2B2828;
+}
+.new .latest .has .UIUX p {
+  max-width: 34.1rem;
+  font-size: 18px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #505056;
+}
+
+footer {
+  padding: 112px 80px;
+  background: #0F172A;
+}
+footer .footer-a {
+  max-width: 144rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+footer .footer-a .com h2 {
+  font-size: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-bottom: 2.4rem;
+}
+footer .footer-a .com ul {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  text-align: start;
+  row-gap: 2.4rem;
+}
+footer .footer-a .com ul li a {
+  margin-top: 2.4rem;
+  font-size: 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #E4E4E7;
+}
+footer .footer-a .install h2 {
+  font-size: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-bottom: 2.4rem;
+}
+footer .footer-a .install ul {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 2.4rem;
+}
+footer .footer-hr {
+  margin-top: 4rem;
+  margin-bottom: 3.5rem;
+  border: 2px solid #1E293B;
+}
+footer .made {
+  max-width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .made .with p {
+  color: #A1A1AA;
+  font-size: 12.6px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.8px;
+}
+footer .made .icon h2 {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=stayil.css.map */

@@ -1,0 +1,96 @@
+html{
+    font-size: 10px;
+}
+header{
+    background-color: $color-f8;
+    .container{
+        max-width: 144rem;
+        padding: 1rem 8rem 12.8rem 8rem;
+        margin: 0 auto;
+    }
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    .navbar-right ul{
+        column-gap: 4.8rem;
+    }
+    .navbar-right ul li a{
+        font-size: 18px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 155%;
+        letter-spacing: 0.36px;
+        color: $color-a;
+    }
+    .navbar-left ul{
+        column-gap: 4.8rem;
+    }
+    a{
+        font-size: 18px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 155%;
+        letter-spacing: -0.54px;
+        color: $color-a;
+    }
+
+    .Get{
+        padding: 1.6rem 4rem;
+        border-radius: 1rem;
+        background-color: $color-blue;
+        border: none;
+        a{
+            color: $color-fff;
+        }
+    }
+
+}
+.how{
+    margin-top: 6.4rem;
+    margin-top: 6.4rem;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4.3rem;
+    align-items: center;
+    .how-right{
+        max-width: 64rem;
+        h1{
+            font-size: 56px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: 700;
+        }
+        h2{
+            margin-top: 2.4rem;
+            font-size: 18px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            color: $color-50;
+        }
+        ul{
+            margin-top: 4rem;
+            column-gap: 3.2rem;
+            display: flex;
+            li {
+                width: 19rem;
+                height: 5.6rem;
+            }
+        }
+    }
+    .how-left{
+        max-height: 58rem;
+        max-width: 56.3rem;
+    }
+}
+
